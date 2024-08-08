@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="560.0" prefWidth="839.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.Pokedex">
+    <TableView fx:id="tablePokemon" layoutX="14.0" layoutY="280.0" onDragDetected="#eliminarPokemon" onMouseClicked="#modificarPokemon" prefHeight="200.0" prefWidth="600.0">
+      <columns>
+          <TableColumn fx:id="columCodigo" prefWidth="75.0" text="Codigo" />
+          <TableColumn fx:id="columNombre" prefWidth="75.0" text="Nombre" />
+          <TableColumn fx:id="columTipo" prefWidth="91.20001220703125" text="Tipo" />
+          <TableColumn fx:id="columNivel" prefWidth="88.80000305175781" text="Nivel" />
+          <TableColumn fx:id="columFuerza" prefWidth="80.79998779296875" text="Fuerza" />
+          <TableColumn fx:id="columDefensa" prefWidth="85.60009765625" text="Defensa" />
+          <TableColumn fx:id="columVida" prefWidth="102.4000244140625" text="Vida" />
+      </columns>
+    </TableView>
+    <Button layoutX="14.0" layoutY="503.0" mnemonicParsing="false" onAction="#AnadirPokemones" prefHeight="26.0" prefWidth="600.0" text="Crear Pokemon" />
+   <RadioButton fx:id="radioElectrico" layoutX="652.0" layoutY="347.0" mnemonicParsing="false" text="Electrico" />
+   <RadioButton fx:id="radioAgua" layoutX="653.0" layoutY="380.0" mnemonicParsing="false" text="Agua" />
+   <Button layoutX="627.0" layoutY="504.0" mnemonicParsing="false" onMouseClicked="#btnFiltrar" prefHeight="25.0" prefWidth="167.0" text="Filtrado" />
+   <ComboBox fx:id="comboBoxTipo" layoutX="627.0" layoutY="460.0" prefHeight="25.0" prefWidth="167.0" />
+   <RadioButton fx:id="radioReset" layoutX="652.0" layoutY="416.0" mnemonicParsing="false" text="Reset" />
+   <ImageView fx:id="imagenPokedex" fitHeight="249.0" fitWidth="782.0" layoutX="28.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true" />
+</AnchorPane>

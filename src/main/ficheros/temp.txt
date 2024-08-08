@@ -1,0 +1,8 @@
+1,Pikachu,ELECTRICO,50,5,5,15
+2,Chikorita,PLANTA,15,3,7,15
+3,Totodile,AGUA,11,2,4,15
+4,Pikachu,ELECTRICO,2,5,5,15
+5,crocodilo,FUEGO,3,5,5,15
+6,manolo,ELECTRICO,3,5,5,15
+7,Pikachu,PLANTA,3,5,5,15
+8,palomo,FANTASMA,3,5,5,15

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="577.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="66.0" layoutY="91.0" text="Codigo" />
+      <Label layoutX="66.0" layoutY="143.0" text="Nombre" />
+      <Label layoutX="66.0" layoutY="243.0" text="Nivel" />
+      <Label layoutX="344.0" layoutY="213.0" text="Vida base" />
+      <Label layoutX="339.0" layoutY="152.0" text="Fuerza Base" />
+      <Label layoutX="339.0" layoutY="92.0" text="Defensa base" />
+      <ComboBox fx:id="comboTipos" layoutX="66.0" layoutY="187.0" prefHeight="26.0" prefWidth="213.0" />
+      <TextField fx:id="txtCodigo" editable="false" layoutX="128.0" layoutY="87.0" />
+      <TextField fx:id="txtNombre" editable="false" layoutX="128.0" layoutY="139.0" />
+      <TextField fx:id="txtNivel" layoutX="128.0" layoutY="239.0" />
+      <TextField fx:id="txtDefensa" editable="false" layoutX="422.0" layoutY="87.0" />
+      <TextField fx:id="txtFuerza" editable="false" layoutX="422.0" layoutY="148.0" />
+      <TextField fx:id="txtVida" editable="false" layoutX="422.0" layoutY="209.0" />
+      <Button layoutX="177.0" layoutY="294.0" mnemonicParsing="false" onAction="#buttonModificarPokemon" prefHeight="26.0" prefWidth="266.0" text="Modificar Pokemon" />
+      <ImageView fx:id="imagenPikachu" fitHeight="193.0" fitWidth="464.0" layoutX="204.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imagenes/logotipo.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,8 @@
+package enumerado;
+
+public enum Tipos_Pokemon {
+
+    BICHO,DRAGON, ELECTRICO, HADA, LUCHA, FUEGO, VOLADOR, FANTASMA, NINGUNO,
+    PLANTA, TIERRA, HIELO, NORMAL ,VENENO ,PSIQUICO, ROCA, ACCERO, AGUA;
+
+}
